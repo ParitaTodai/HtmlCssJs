@@ -1,0 +1,105 @@
+body{
+    /* CSS Reset */
+
+    margin : 0px;
+    padding: 0px;
+    background-image: url('../images/gym-fitness.jpeg');
+ background-size:100%;
+    color:white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.left{
+    display:inline-block;
+    border: 2px solid green;
+    position: absolute;
+    left:35px;
+    top:20px;
+    text-align: center;
+}
+.left img{
+    width:100px;
+}
+
+.right{
+    display:inline-block;
+    border:2px solid rgb(192, 211, 22);
+    position: absolute;
+    right:35px;
+    top:20px;
+}
+.center{
+    display: block;
+    margin: 20px auto;
+    width:max-content;
+    border:2px solid blue;
+    border-radius: 30px;
+}
+.navbar{
+    display: inline-block;
+    padding: 12px 0px;
+    margin: auto;
+}
+
+.navbar a{
+    top:20px;
+    /* display: inline-block; */
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    /* font-family: 'Fondamento', cursive; */
+    /* margin: auto;
+    align-items: center; */
+}
+.navbar a:active,.navbar a:hover{
+    color: rgb(48, 218, 42);
+ text-decoration: underline;
+ font-size: 22px;
+}
+.btn{
+    margin: 0px 9px;
+    color: rgb(81, 81, 226);
+    background-color: rgb(139, 228, 38);
+    border:2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    padding:4px 14px;
+    font-family: 'Baloo Bhai 2', cursive;
+    cursor:pointer;
+}
+.btn:hover{
+    font-size:20px;
+    border:4px soild rgb(39, 33, 33);
+}
+.container{
+    font-family: 'Baloo Bhai 2', cursive;
+    border: 2px solid red;
+    width: 60%;
+    margin: 75px 35px;
+    padding: 35px 35px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 80px;
+}
+.container button{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: 30px auto;
+    font-size: 50px;
+}
+
+.form-group input{
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 7px;
+    margin: 7px auto;
+    display: block;
+    width: 80%;
+    border: 5px solid black;
+    color:black;
+}
